@@ -1,0 +1,18 @@
+## IDF Component Manager manifest for esp_tinygpsplusplus
+version: "1.1.0"
+description: >
+  TinyGPS++ — compact NMEA-0183 parser ported to ESP-IDF.
+  No Arduino dependency. millis() is implemented via esp_timer_get_time().
+  Parses GGA and RMC sentences; exposes location, date, time, speed,
+  course, altitude, satellite count, HDOP, and arbitrary custom terms.
+url: "https://github.com/cinderblocks/esp_tinygpsplusplus"
+targets:
+  - esp32s3
+  - esp32s2
+  - esp32
+  - esp32c3
+  - esp32c6
+  - esp32h2
+dependencies:
+  idf:
+    version: ">=5.0.0"
