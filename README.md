@@ -190,8 +190,3 @@ TinyGPS++ core: GNU Lesser General Public License v2.1 (Mikal Hart, 2008-2024).
 ESP-IDF port: same license.
 
 ---
-
-```zsh
-cd components/esp_tinygpsplusplus/src
-rm -rf HT_TinyGPS++.h HT_TinyGPS++.cpp driver/ esp32/ esp32c3/ esp32s3/ lora/ loramac/ radio/
-```
